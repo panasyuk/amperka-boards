@@ -125,6 +125,36 @@
               "version": "6.3.0-arduino14"
             }
           ]
+        },
+        {
+          "name": "Amperka AVR Boards",
+          "architecture": "avr",
+          "version": "0.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/amperka/amperka-boards"
+          },
+          "url": "https://github.com/amperka/amperka-boards/releases/download/v0.2.0/amperka-boards-0.2.0.zip",
+          "archiveFileName": "amperka-boards-0.2.0.zip",
+          "checksum": "SHA-256:018661c691f42a382cebdf1893eff3d486c8d3d0abf43bb68442baa9cdc6ed18",
+          "size": "53385",
+          "boards": [
+            {
+              "name": "Amperka Iskra Nano Pro"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
         }
       ],
       "tools": []
